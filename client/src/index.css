@@ -1,10 +1,23 @@
 body {
   margin: 0;
+  background-image: url('https://img.freepik.com/fotos-premium/borde-ingredientes-cocinar_23-2147749525.jpg?w=740');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-attachment: scroll;
+  position: relative;
+  overflow-y: scroll;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  
 }
 
 code {

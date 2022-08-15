@@ -1,0 +1,72 @@
+.button {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    grid-template-columns: repeat(4, 2fr);
+    margin: auto;
+    position: relative;
+}
+
+.button:hover{
+    cursor: pointer;
+    height: 175px;
+    width: 175px;
+    border-radius: 100px;
+    transition: all 0.2s ease;
+}
+
+.landing-page {
+    height: 100px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 400px;
+}
+
+.Text {
+    color: rgb(207, 21, 21);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+.Text2 {
+    color: rgb(74, 122, 19);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+}
+
+

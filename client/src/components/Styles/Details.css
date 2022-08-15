@@ -1,0 +1,256 @@
+
+.container{
+    color: rgb(235, 147, 14);
+    font-size: 17px;
+    font-weight: lighter;
+    height: 100;
+    width: 100%;
+
+    border-radius: 50px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: flow-root;
+    
+    position: fixed;
+    top: 40px;
+    bottom: 50px;
+
+    left: 100px;
+
+    display:flex;
+   
+
+    position:fixed ;
+    top: 70px; 
+    padding-bottom: 60px;
+  
+    overflow-y: scroll;
+    /* grid-template-columns: repeat(4, 2fr);
+    grid-auto-rows: minmax(100px, auto); */
+} 
+
+
+/* ---------------------------------- */
+
+.back1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: rgba(236, 214, 214, 0.329);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(39, 182, 70);
+    
+    width: 100px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 10px;
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: flow-root;
+    background-attachment: scroll;
+    position: fixed;
+    top: 10; 
+}
+.back2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+    padding: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(236, 214, 214, 0.329);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(39, 182, 70);
+    
+    width: 100px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 20px;
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: flow-root;
+    background-attachment: scroll;
+    position: fixed;
+    top: 100px; 
+}
+
+/* ---------------------------------- */
+
+.searchBar{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+.title {
+    grid-column: 3 / 7;
+    grid-row: 1 / 2;
+    margin-top: 0px;
+    color: blue;
+    text-decoration: none;
+}
+
+.text{
+    margin: 10px;
+    width: 800px;
+    
+    font-weight: bold;
+    
+    font-size: 20px;
+    color: rgb(230, 155, 18);
+    
+    margin-left: 190px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    border-radius: 20px;
+    border-color: rgb(224, 41, 9);
+    /* box-shadow: 2px 2px 5px 5px rgb(15, 54, 10), -2px -2px 5px 5px rgb(8, 8, 17); */
+    background-color: rgba(255, 5, 5, 0);
+}
+
+/* ---------------------------------- */
+
+.left{
+    grid-column: 1 / 3;
+    grid-row: 2 / 9;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.searchBar{
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+.create{
+    grid-column: 1 / 3;
+    grid-row: 3;
+    
+    background-position: center;
+    background-size: cover;
+    border-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.create:hover{
+    cursor: pointer
+}
+
+
+
+.select{
+    grid-column: 1 / 3;
+    grid-row: 5;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-color: black;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.filterType{
+    grid-column: 1 / 3;
+    grid-row: 6;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-color: black;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.filterStrength{
+    grid-column: 1 / 3;
+    grid-row: 7;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-color: black;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.filterApi{
+    grid-column: 1 / 3;
+    grid-row: 8;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-color: black;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.reload{
+    grid-column: 1 / 3;
+    grid-row: 9;
+  
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: black;
+}
+.reload:hover{
+    cursor: pointer;
+}
+
+/* ---------------------------------- */
+
+.cards{
+   
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    padding-right: 50px;
+    overflow-y: auto;
+  
+
+}
+
+.loading{
+    color: rgb(235, 147, 14);
+    font-size: 50px;
+    width: 200px;
+    margin-left: 35%;
+}

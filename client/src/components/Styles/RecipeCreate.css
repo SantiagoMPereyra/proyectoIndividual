@@ -1,0 +1,210 @@
+.divForm{
+    margin-top: 50px;
+    height: 46.8vw;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.createTitle{
+    color: rgb(218, 153, 15);
+    font-weight: bold;
+    justify-content: center;
+    text-shadow: 2px 2px 2px rgb(25, 25, 25);
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.errors{
+    color: red;
+}
+
+.titleCreate{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: black;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.titleCreate:hover{
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    transition: all 1s;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    height: 70%;
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(150, 44, 44, 0.75);
+    border-color: black;
+    border-radius: 15px;
+
+}
+
+.range{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.leftCreate{
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.center{
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.rightCreate{
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.deleteType{
+    background-color: white;
+    border-radius: 50px;
+    border-color: transparent;
+    color: red;
+    font-weight: lighter;
+    justify-content: center;
+    text-shadow: 2px 2px 2px rgb(25, 25, 25);
+}
+
+.deleteType:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-weight: lighter;
+    justify-content: center;
+    text-shadow: 2px 2px 2px rgb(25, 25, 25);
+}
+
+/* ------------------------ */
+
+.textCreate{
+    color: rgb(228, 163, 23);
+    margin-top: 30px;
+    height: 30px;
+    width: 50%;
+
+    border-radius: 15px;
+    font-weight: bold;
+    justify-content: center;
+    /*text-shadow: 2px 2px 2px rgb(25, 25, 25);*/
+    margin-top: 10px;
+    font-size: 17px;
+
+}
+
+.inputName{
+    background-color: rgba(255, 255, 255, 0.75);
+    border-color: black;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 18px ;
+    padding: auto;
+    margin-bottom: 20px;
+    top: 25px;  
+}
+.inputImage{
+    background-color: rgba(255, 255, 255, 0.75);
+    border-color: black;
+    border-radius: 15px;
+    margin: 10px;
+    width: 600px;
+    height: 40px;
+}
+.inputSummarySteps{
+    background-color: rgba(255, 255, 255, 0.75);
+    border-color: black;
+    border-radius: 15px;
+    margin: 10px;
+    width: 600px;
+    height: 40px;
+}
+
+.inputHealthScore{
+    background-color: rgba(255, 255, 255, 0.75);
+    border-color: black;
+    border-radius: 15px;
+    margin: 10px;
+    width: 100px;
+    height: 20px;
+}
+
+.back1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(236, 214, 214, 0.329);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(39, 182, 70);
+    
+    width: 100px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 10px;
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: flow-root;
+   
+    position: fixed;
+    top: 10; 
+}
+
+.create{
+    background-color: rgba(255, 255, 255, 0.75);
+    border-color: black;
+    border-radius: 15px;
+    margin: 10px;
+    width: 600px;
+    height: 40px;
+}
